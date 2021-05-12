@@ -15,8 +15,9 @@ at the beginning of a line to add comments.) Make sure you sql script is
 script, so that PosgreSQL will not complain, when you will try to create the
 same table twice.
 1. Use the entity-relational model created for Exercise 1 (University database)
-in the previous lab. Here it is a solution for this exercise. Construct a
+in the previous lab. Here it is a solution in [lab1](../Lab1/cs166lab1.pdf.pdf) for this exercise. Construct a
 corresponding relational schema and database in Postgres.
+
 2. Use the entity-relational model created for Exercise 2 (Notown Records)
-in the previous lab. Here it is a solution for this exercise. Construct a
+in the previous lab. Here it is a solution in [lab1](../Lab1/cs166lab1.pdf.pdf) for this exercise. Construct a
 corresponding relational schema and database in Postgres.
