@@ -10,12 +10,12 @@ both relational algebra and and SQL) in a text/word document, and upload
 it to iLearn.
 
 Assume that the following relations exist:
-* BOOKS(DocId, Title, Publisher, Year)
-* STUDENTS(StId, StName, Major, Age)
-* AUTHORS(AName, Address)
-* borrows(DocId, StId, Date)
-* has-written(DocId, AName)
-* describes(DocId, Keyword)
+* **BOOKS**(DocId, Title, Publisher, Year)
+* **STUDENTS**(StId, StName, Major, Age)
+* **AUTHORS**(AName, Address)
+* **borrows**(DocId, StId, Date)
+* **has-written**(DocId, AName)
+* **describes**(DocId, Keyword)
 
 The following shows the entity relationship diagram. The key fields of
 the relations are underlined in the ER diagram.
