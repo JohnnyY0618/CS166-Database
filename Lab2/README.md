@@ -2,7 +2,7 @@
 April 14, 2021
 This is an introductory lab to help you familiarize yourself with the tools
 that will be used throughout the course.
-1 Initialize PSQL Environment
+## 1 Initialize PSQL Environment
 Following, we describe the steps associated with initializing our execution
 environment.
 1. Execute the following command to initialize the PSQL environment
@@ -24,7 +24,7 @@ database. <bar>
 Note: Examine the script you just executed. Look at every command
 and try to figure out its functionality.
 
-2 Execute SQL Statements
+## 2 Execute SQL Statements
 After initializing your environment you should execute a series of SQL statements. DO NOT OPEN! a new terminal window, the scripts you just
 executed rely on system variables initialized through the previous scripts.
 Opening a new window will require initializing the values from scratch, hence
@@ -41,7 +41,7 @@ command should look like:
 2. In the terminal type the following statement to create a table with
 name students
 `CREATE TABLE Students (SID numeric (9 , 0) , Name text, Grade float);`
-3. Type \dt to view a list of all tables in the database. You should be
+3. Type `\dt` to view a list of all tables in the database. You should be
 able to see the table you just created.
 4. Insert a single row in the table using the following statement
 `INSERT INTO Students VALUES (860507041 , ’John Anderson’, 3.67);`
