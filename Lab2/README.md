@@ -6,21 +6,21 @@ that will be used throughout the course.
 Following, we describe the steps associated with initializing our execution
 environment.
 1. Execute the following command to initialize the PSQL environment
-`source ./startPostgreSQL.sh`
+`source ./startPostgreSQL.sh` <bar>
 Note: Examine the script you just executed. Look at every command
 and try to figure out its functionality. Pay special attention to the
 P GP ORT variable. After executing the above script type pg ctl status
 to view the status of the server, it should indicate that it is running
 correctly.
-2. Execute the following command to create your database
+2. Execute the following command to create your database <bar>
 `source ./createPostgreDB.sh`
 Note: Examine the script you just executed. Look at every command
 and try to figure out its functionality. What is the name of the database
 you just created?
 3. Once you finished with the whole assignment, DO NOT FORGET!
 to call the following command to stop the server and shutdown the
-database.
-source ./stopPostgreDB.sh
+database. <bar>
+`source ./stopPostgreDB.sh`
 Note: Examine the script you just executed. Look at every command
 and try to figure out its functionality.
 
