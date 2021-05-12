@@ -16,7 +16,7 @@ constraints. Consider the following information about a university database:
 * Departments have a professor (known as the chairman) who runs the department.<bar>
 * Professors work in one or more departments and for each depart- ment that they work in, a time percentage is associated with their job.<bar>
 * Graduate students have one major department in which they are working on their degree.<bar>
-• Each graduate student has another, more senior graduate student (known as a student advisor) who advises him or her on what courses to take.<bar>
+* Each graduate student has another, more senior graduate student (known as a student advisor) who advises him or her on what courses to take.<bar>
 
 #Part 2 - Notown
 
