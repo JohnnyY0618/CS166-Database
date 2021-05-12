@@ -6,17 +6,17 @@ containing all your SQL queries.
 Consider the following schema:
 ```
 Suppliers ( sid NUMERIC(9 , 0) PRIMARY KEY,
-sname CHAR(30) ,
-address CHAR(40)) ;
+            sname CHAR(30) ,
+            address CHAR(40)) ;
 Parts ( pid NUMERIC(9 , 0) PRIMARY KEY,
-pname CHAR(40) ,
-color CHAR(15)) ;
+        pname CHAR(40) ,
+        color CHAR(15)) ;
 Catalog ( sid NUMERIC(9 , 0),
-pid NUMERIC(9 , 0),
-cost NUMERIC(10, 2),
-PRIMARY KEY(sid, pid),
-FOREIGN KEY(sid) REFERENCES Suppliers,
-FOREIGN KEY(pid) REFERENCES Parts);
+          pid NUMERIC(9 , 0),
+          cost NUMERIC(10, 2),
+          PRIMARY KEY(sid, pid),
+          FOREIGN KEY(sid) REFERENCES Suppliers,
+          FOREIGN KEY(pid) REFERENCES Parts);
 ```
 In order to create tables and load initial data please download the file
 lab5.zip from iLearn to you computer. Unpack the .zip file, you will find three
@@ -53,6 +53,6 @@ Create queries.sql and execute the script:
 psql −h local host −p $PGPORT $USER” DB” < queries.sql
 ```
 Take the screenshot of the output you get after executing the script, **submit
-the queries.sql file and the screenshot** at the end of the lab.
+the queries.sql file and the screenshot** at the end of the lab. <bar
   *** DO NOT forget to execute source ./stopPostgreDB.sh to stop the
 server once you are done.
