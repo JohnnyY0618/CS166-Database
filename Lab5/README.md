@@ -7,10 +7,12 @@ Consider the following schema:
 ```
 Suppliers ( sid NUMERIC(9 , 0) PRIMARY KEY,
             sname CHAR(30) ,
-            address CHAR(40)) ;
+            address CHAR(40));
+            
 Parts ( pid NUMERIC(9 , 0) PRIMARY KEY,
         pname CHAR(40) ,
-        color CHAR(15)) ;
+        color CHAR(15));
+        
 Catalog ( sid NUMERIC(9 , 0),
           pid NUMERIC(9 , 0),
           cost NUMERIC(10, 2),
