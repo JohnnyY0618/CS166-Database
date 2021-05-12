@@ -5,6 +5,7 @@ This assignment is to practice the relational modeling: convert an ER
 model into the Relational model for a specific database. The correct ER
 diagrams for the exercises from the previous lab are given to you and you
 should use them as a reference, when you are creating the relational model.
+
 To do this assignment, you need to carefully read the lab notes and understand how different ER connectors are modeled in database. Please pay
 attention to those constraints in the ER model. When you finish, create
 a single “.sql” file contains all the SQL statements that will create all the
