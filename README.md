@@ -1,2 +1,2 @@
 # CS166
-## DATABASE MANAGEMETN SYSTEMS
+## Database Management Systems
