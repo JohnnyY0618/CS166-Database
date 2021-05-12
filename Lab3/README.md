@@ -1,6 +1,6 @@
-# CS 166: Lab 3 Assignment: Relational
-Modeling
+# CS 166: Lab 3 Assignment: Relational Modeling
 April 18, 2018
+
 This assignment is to practice the relational modeling: convert an ER
 model into the Relational model for a specific database. The correct ER
 diagrams for the exercises from the previous lab are given to you and you
