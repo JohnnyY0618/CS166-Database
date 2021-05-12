@@ -53,6 +53,7 @@ Create queries.sql and execute the script:
 psql −h local host −p $PGPORT $USER” DB” < queries.sql
 ```
 Take the screenshot of the output you get after executing the script, **submit
-the queries.sql file and the screenshot** at the end of the lab. <bar
+the queries.sql file and the screenshot** at the end of the lab. <bar>
+            
   *** DO NOT forget to execute source ./stopPostgreDB.sh to stop the
 server once you are done.
