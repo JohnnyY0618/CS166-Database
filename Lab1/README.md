@@ -2,6 +2,7 @@
 Design and draw an ER diagram that captures the information about the university. Use only the basic ER model
 here, that is include only entities, relationships and attributes. Dont forget to indicate any key and participation
 constraints. Consider the following information about a university database:
+
 • Professors have an SSN, a name, an age, a rank and a research specialty. <bar>
 • Projects have a project number, a sponsor name (e.g., NSF), a starting date, an ending date and a budget.<bar>
 • Graduate students have an SSN, a name, an age and a degree program (e.g., M.S. or Ph.D.).<bar>
