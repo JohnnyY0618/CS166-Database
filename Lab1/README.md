@@ -1,4 +1,4 @@
-#Part 1 - University
+##Part 1 - University
 
 Design and draw an ER diagram that captures the information about the university. Use only the basic ER model
 here, that is include only entities, relationships and attributes. Dont forget to indicate any key and participation
@@ -18,7 +18,7 @@ constraints. Consider the following information about a university database:
 * Graduate students have one major department in which they are working on their degree.<bar>
 • Each graduate student has another, more senior graduate student (known as a student advisor) who advises him or her on what courses to take.<bar>
 
-#Part 2 - Notown
+##Part 2 - Notown
 
 Design and draw an ER diagram for your schema. Be sure to indicate all key and cardinality constraints and
 any assumptions that you make. Identify any constraints that you are unable to capture in the ER diagram and
