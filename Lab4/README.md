@@ -19,6 +19,7 @@ Assume that the following relations exist:
 
 The following shows the entity relationship diagram. The key fields of
 the relations are underlined in the ER diagram.
+![image](https://user-images.githubusercontent.com/72288397/118036717-c37d6600-b321-11eb-8feb-120a1495c86a.png)
 
 Write the following queries in relational algebra and then the equivalent
 SQL query:
