@@ -23,8 +23,8 @@ run the example program by executing compile.sh script.Implement the following q
    * Implement the 4 problems from Exercise 1
    * Implement the additional queries where “ ” represents a user’s
 input:
-– Query 5: Find the name of parts with cost lower than “ ”
-– Query 6: Find the address of the suppliers who supply “ ” (pname)
+ _Query 5: Find the name of parts with cost lower than “ ”
+ _Query 6: Find the address of the suppliers who supply “ ” (pname)
 
 ## Submission Requirements:
 Turn in,
