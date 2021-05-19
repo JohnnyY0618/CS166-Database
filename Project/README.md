@@ -43,6 +43,7 @@ __Patients:__
 4. Make an appointment for a doctor of a department:
    *  Get on the waitlist for an appointment if the chosen doctor has no available slots
   in the week. 
+
 __Doctors:__
 1. Make a maintenance request with a list of available appointments (time slot, department
    name, number of patients per hour, etc.).
