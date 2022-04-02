@@ -1,2 +1,2 @@
 # CS166
-## Database Management Systems
+## Database Management Systems from UCR
